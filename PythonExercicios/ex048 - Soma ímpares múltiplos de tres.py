@@ -1,10 +1,10 @@
 # faça um programa que calcule a soma de todos os números impares que são multiplos de 3 e que se encontram
 # entre 1 e 500
 
-x = 0
-s = 0
-for c in range(1, 501): # para economizar o uso da CPU, poderia colocar range(1, 501, 2) e ele calcularia pulando de 2 em 2
-    if (c % 2 != 0) and (c % 3 == 0):
-        s += c
-        x += 1
-print(f'O somátorio de todos os {x} valores solicitados é {s}')
+contador_impares = 0
+soma_impares = 0
+for numero in range(1, 501): # para economizar o uso da CPU, poderia colocar range(1, 501, 2) e ele calcularia pulando de 2 em 2
+    if (numero % 2 != 0) and (numero % 3 == 0):
+        soma_impares += numero
+        contador_impares += 1
+print(f'O somátorio de todos os {contador_impares} valores solicitados é {soma_impares}')

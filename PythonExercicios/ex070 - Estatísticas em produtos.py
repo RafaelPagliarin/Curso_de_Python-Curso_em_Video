@@ -4,18 +4,18 @@
 # quantos produtos custam mais de R$1000
 # qual  é o nome do produto mais barato.
 
-baratonome = ' '
-tot = caro = barato = 0
+produto_mais_barato = ' '
+total_gasto = mais_de_mil = mais_barato = 0
 while True:
     cont = ' '
     produto = str(input('Qual o produto? ')).strip()
-    price = int(input('Qual o preço: R$'))
-    if barato == 0 or barato > price:
-        baratonome = produto
-        barato = price
-    if price > 1000:
-        caro += 1
-    tot += price
+    preço = int(input('Qual o preço: R$'))
+    if mais_barato == 0 or mais_barato > preço:
+        produto_mais_barato = produto
+        mais_barato = preço
+    if preço > 1000:
+        mais_de_mil += 1
+    total_gasto += preço
 
     while cont not in 'SN':
         cont = str(input('Deseja continuar?')).strip().upper()[0]
@@ -23,6 +23,6 @@ while True:
             print('não entendi')
     if cont == 'N':
         break
-print(f'O total gasto na compra foi R${tot:.2f}')
-print(f'onde {caro} produtos custaram mais de R$1000.00')
-print(f'e o produto mais barato foi o {baratonome} por R${barato}')
+print(f'O total gasto na compra foi R${total_gasto:.2f}')
+print(f'onde {mais_de_mil} produtos custaram mais de R$1000.00')
+print(f'e o produto mais barato foi o {produto_mais_barato} por R${mais_barato}')

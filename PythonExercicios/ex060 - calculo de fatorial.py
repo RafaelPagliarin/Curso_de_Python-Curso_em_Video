@@ -2,21 +2,19 @@
 print('-=' * 12)
 print('Calculadora de Fatorial')
 print('-=' * 12)
-n = int(input('Digite um número: '))
-c = 1
-r = 1
-while n >= c:
-    r *= c
-    if c == 1:
-        print(f'{n}! = {c}', end=' x ')
-    elif c == n:
-        print(f'{c} = {r}')
+numero = int(input('Digite um número: '))
+contador = 1
+resultado = 1
+while numero >= contador:
+    resultado *= contador
+    if contador == 1:
+        print(f'{numero}! = {contador}', end=' x ')
+    elif contador == numero:
+        print(f'{contador} = {resultado}')
     else:
-        print(f'{c}', end=' x ')
-    c += 1
+        print(f'{contador}', end=' x ')
+    contador += 1
 
 # ======== usando o "factorial" =============
-# f = factorial(n)
-# print(f'O fatorial de {n}! é {f}')
-
-# ======== para mostrar todos os números ============
+# fatorial = factorial(n)
+# print(f'O fatorial de {numero}! é {fatorial}')

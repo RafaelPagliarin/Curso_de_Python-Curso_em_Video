@@ -2,6 +2,6 @@
 
 n = int(input('Digite o número que deseja ver a tabuada: '))
 
-for c in range(0, 11):
+for c in range(11):
     print(f'{n} x {c} = {c*n}')
 

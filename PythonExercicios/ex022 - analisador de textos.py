@@ -6,17 +6,17 @@ quantas letras ao todo (sem considerar espaços)
 quantas letras tem o primeiro nome'''
 
 nome = input('Digite seu nome completo ')
-listanome = nome.split()
-nomejunto = ''.join(listanome)
+lista_nome = nome.split()
+nomejunto = ''.join(lista_nome)
 print()
 print(f'Nome digitado: {nome}')
 print(f'Nome com letras maiusculas: {nome.upper()}')
 print(f'Nome com letras minusculas: {nome.lower()}')
 print(f'quantas letras o nome completo possui: {len(nome)}')
-print(f'quantas letras o nome completo possui: {len(nome) - nome.count(" ")}') # duas opções aqui
+print(f'quantas letras o nome completo possui sem espaços: {len(nome) - nome.count(" ")}') # duas opções aqui
 print(f'quantas letras o nome completo possui sem espaços: {len(nomejunto)}') # duas opções aqui
-print(f'quantas letras possui o primeiro nome: {len(listanome[0])}')
-print(listanome)
+print(f'quantas letras possui o primeiro nome: {len(lista_nome[0])}')
+print(lista_nome)
 print(nomejunto)
 
 

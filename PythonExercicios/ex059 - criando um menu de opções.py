@@ -9,15 +9,15 @@
 # seu programa deverá realizar a operação solicitada em cada caso
 
 option = ''
-Menu = 'Menu'
 while option != 5:
+    print()
     n1 = int(input('Digite um número: '))
     n2 = int(input('Digite outro número: '))
     option = ''
     while option != 4 and option != 5:
         print('-=' * 20)
         print('''    [1] somar os valores digitados 
-    [2] mutiplicar os valores digitados
+    [2] multiplicar os valores digitados
     [3] descobrir qual valor é maior
     [4] digitar novos valores
     [5] sair ''')

@@ -7,11 +7,11 @@
 
 p1 = float(input('Digite a nota da P1: '))
 p2 = float(input('Digite a nota da P2: '))
-m = (p1+p2) / 2
+media = (p1 + p2) / 2
 
-if m >= 7:
-    print(f'Média \33[32m{m}\33[m. Aluno aprovado!')
-elif (m >= 5) and (m < 7):
-    print(f'Média \33[33m{m}\33[m. Aluno em recuperação!')
+if media >= 7:
+    print(f'Média \33[32m{media}\33[m. Aluno aprovado!')
+elif (media >= 5) and (media < 7):
+    print(f'Média \33[33m{media}\33[m. Aluno em recuperação!')
 else:
-    print(f'Média \33[31m{m}\33[m. Aluno Reprovado!')
+    print(f'Média \33[31m{media}\33[m. Aluno Reprovado!')

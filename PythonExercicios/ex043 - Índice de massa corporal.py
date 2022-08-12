@@ -13,14 +13,14 @@ altura = float(input('Digite sua altura, em m: '))
 imc = peso / altura**2
 
 if imc < 18.5:
-    print(f'Seu IMC é de {imc:.2f}, isso te coloca na categoria: Abaixo do peso')
+    print(f'Seu IMC é de {imc:.2f}, categoria: Abaixo do peso')
 elif imc <= 25:
-    print(f'Seu IMC é de {imc:.2f}, isso te coloca na categoria: Peso normal')
+    print(f'Seu IMC é de {imc:.2f}, categoria: Peso normal')
 elif imc <= 30:
-    print(f'Seu IMC é de {imc:.2f}, isso te coloca na categoria: Sobrepeso')
+    print(f'Seu IMC é de {imc:.2f}, categoria: Sobrepeso')
 elif imc <= 40:
-    print(f'Seu IMC é de {imc:.2f}, isso te coloca na categoria: Obesidade')
+    print(f'Seu IMC é de {imc:.2f}, categoria: Obesidade')
 else:
-    print(f'Seu IMC é de {imc:.2f}, isso te coloca na categoria: Obesidade Mórbida')
+    print(f'Seu IMC é de {imc:.2f}, categoria: Obesidade Mórbida')
 
 

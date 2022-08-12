@@ -7,12 +7,12 @@ for c in range(0, 5):
     valor = int(input(f'Digite o {c+1}º valor: '))
     if c == 0 or (valor > lista[-1]):
         lista.append(valor)
-        print('Adicionado ao final da lista...')
+        print('Adicionado valor ao final da lista...')
     else:
-        for x in range(0, len(lista)):
+        for x in range(len(lista)):
             if valor <= lista[x]:
                 lista.insert(x, valor)
-                print(f'Adicionado na posição {x+1} da lista')
+                print(f'Adicionado valor na posição {x+1} da lista')
                 break
 print('-=' * 30)
 print(f'Os valores digitados em ordem foram: {lista}')

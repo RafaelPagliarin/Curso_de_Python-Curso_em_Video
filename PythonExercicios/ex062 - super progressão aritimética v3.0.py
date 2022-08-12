@@ -1,21 +1,20 @@
-# melhore o desafio 61, perguntando para o usuário se ele quer mostrar mais alguns termos.
+ # melhore o desafio 61, perguntando para o usuário se ele quer mostrar mais alguns termos.
 # o programa encerra quando ele disser que quer mostrar 0 termos.
 
-i = int(input('Qual o 1º termo da P.A. ? '))
-r = int(input('Qual a razão da P.A. ? '))
-t = int(input('Quantos termos você quer ver?'))
+inicio = int(input('Qual o 1º termo da P.A. ? '))
+razão = int(input('Qual a razão da P.A. ? '))
+termos = int(input('Quantos termos você quer ver?'))
 print()
-c = 0
 x = 0
-t2 = ''
-while t2 != 0:
-    while x < t:
-        if x == (t-1):
-            print(i+r*x)
+mais_termos = ''
+while mais_termos != 0:
+    while x < termos:
+        if x == (termos - 1):
+            print(inicio + razão * x)
         else:
-            print(i+r*x, end=' ➡ ')
+            print(inicio + razão * x, end=' ➡ ')
         x += 1
     print()
-    t2 = int(input('Quantos termos vc quer mostrar a mais?'))
-    t += t2
+    mais_termos = int(input('Quantos termos vc quer mostrar a mais?'))
+    termos += mais_termos
 print('Fim')

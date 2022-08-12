@@ -9,15 +9,19 @@ impares = []
 
 while True:
     cont = ' '
-    lista.append(int(input('Digite um número: ')))
+    try:
+        lista.append(int(input('Digite um número: ')))
+    except ValueError:
+        print('Erro de digitação, favor digitar um número inteiro')
+        continue
     while cont not in 'SN':
         cont = str(input('Continuar [S/N] ? ')).strip().upper()[0]
         if cont not in 'SN':
             print('Opção Inválida.')
-    if cont in 'N':
+    if cont == 'N':
         break
 
-for n, v in enumerate(lista):
+for v in lista:
     if v % 2 == 0:
         pares.append(v)
     else:

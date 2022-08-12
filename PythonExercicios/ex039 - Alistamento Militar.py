@@ -6,9 +6,10 @@
 # seu programa também deverá mostrar o tempo que falta ou passou do prazo.
 
 from datetime import date
-ano = int(input('Qual seu ano de nascimento?'))
 
-idade = date.today().year - ano
+ano_nascimento = int(input('Qual seu ano de nascimento?'))
+
+idade = date.today().year - ano_nascimento
 
 if idade < 18:
     print(f'Você ainda vai se alistar para o serviço militar. Faltam {18-idade} anos')

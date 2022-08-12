@@ -2,4 +2,4 @@
 
 med = float(input('Digite uma medida, em metros : '))
 
-print(f'O valor de {med} em centrimetros é {med*100}cm e em milímetros é {med*1000}mm')
+print(f'O valor de {med} m em centrimetros é {med*100} cm e em milímetros é {med*1000} mm')

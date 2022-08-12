@@ -14,7 +14,8 @@ print('''Escolha uma das bases para conversão:
 option = int(input('Sua opção: '))
 
 if option == 1:
-    print(f'{num} convertido para BINÁRIO é igual a {bin(num)[2:]}') # lembrando que o "[2:]" é sobre fatiamento de string, aula 10
+    # lembrando que o "[2:]" é sobre fatiamento de string, aula 10
+    print(f'{num} convertido para BINÁRIO é igual a {bin(num)[2:]}')
 elif option == 2:
     print(f'{num} convertido para OCTAL é igual a {oct(num)[2:]}')
 elif option == 3:

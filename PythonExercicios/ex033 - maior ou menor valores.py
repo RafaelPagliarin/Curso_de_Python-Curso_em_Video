@@ -1,28 +1,28 @@
 # faça um programa que leia 3 números e mostre qual é o maior e qual é o menor.
 
-a = int(input('Digite um número: '))
-b = int(input('Digite outro número: '))
-c = int(input('Digite mais um número: '))
+primeiro = int(input('Digite um número: '))
+segundo = int(input('Digite outro número: '))
+terceiro = int(input('Digite mais um número: '))
 
-if a > b and a > c:
-    maior = a
-    if b > c:
-        menor = c
+if primeiro > segundo and primeiro > terceiro:
+    maior = primeiro
+    if segundo > terceiro:
+        menor = terceiro
     else:
-        menor = b
+        menor = segundo
 else:
-    if b > c:
-        maior = b
-        if a > c:
-            menor = c
+    if segundo > terceiro:
+        maior = segundo
+        if primeiro > terceiro:
+            menor = terceiro
         else:
-            menor = a
+            menor = primeiro
     else:
-        maior = c
-        if a > b:
-            menor = b
+        maior = terceiro
+        if primeiro > segundo:
+            menor = segundo
         else:
-            menor = a
+            menor = primeiro
 
 print(f'O maior número digitado é {maior} e o menor é {menor}.')
 

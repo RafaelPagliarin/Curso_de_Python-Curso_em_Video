@@ -14,12 +14,15 @@ print('''     OPÇÕES DE PAGAMENTO:
 3. Crédito até 2x
 4. Crédito 3x ou mais''')
 print('-=-' * 10)
+
 modo = int(input('Modo de pagamento desejado: '))
 print()
+
 if (modo == 3) or (modo == 4):
     print('Crédito selecionado!')
     parcelas = int(input('Em quantas parcelas deseja pagar? '))
 print()
+
 if modo == 1:
     print(f'Pagamento à vista no dinheiro/cheque possui um desconto de 10%! Sua compra ficou em R${price*0.9}')
 elif modo == 2:

@@ -3,12 +3,12 @@
 
 
 while True:
-    i = int(input('Valor da tabuada desejada: '))
-    if i < 0:
+    tabuada = int(input('Valor da tabuada desejada: '))
+    if tabuada <= 0:
         print('Encerrando Programa de Tabuada...')
         break
-    for x in range(1, 11):
-        print(f'{i} x {x:0>2} = {i*x:0>2}')
+    for x in range(0, 11):
+        print(f'{tabuada} x {x:0>2} = {tabuada * x:0>2}')
 
     print()
 

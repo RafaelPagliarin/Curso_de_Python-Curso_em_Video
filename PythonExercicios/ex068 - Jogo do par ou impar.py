@@ -3,33 +3,34 @@
 # no final do jogo.
 
 from random import randint
-vit = 0
+
+
+vitorias = 0
 print('-=' * 10)
 print('Jogo do Par ou Ímpar')
 print('-=' * 10)
 while True:
-    player = -1
-    pori = ' '
+    usuario = -1
+    par_ou_impar = ' '
     pc = randint(0, 5)
-    while pori not in 'PI':
-        pori = str(input('Você quer Par ou Impar? ')).strip().upper()[0]
-        if pori not in 'PI':
+    while par_ou_impar not in 'PI':
+        par_ou_impar = str(input('Você quer Par ou Impar? ')).strip().upper()[0]
+        if par_ou_impar not in 'PI':
             print('Opção inválida.')
-    while player < 0 or player > 5:
-        player = int(input('Sua jogada [0 a 5]:'))
-        if player < 0 or player > 5:
+    while usuario < 0 or usuario > 5:
+        usuario = int(input('Sua jogada [0 a 5]:'))
+        if usuario < 0 or usuario > 5:
             print('Jogada inválida.')
-    if (player + pc) % 2 == 0:
+    if (usuario + pc) % 2 == 0:
         resultado = 'Par'
-        res = 'P'
     else:
-        resultado = 'Ímpar'
-        res = 'I'
-    if pori != res:
+        resultado = 'Impar'
+    if par_ou_impar != resultado[0]:
         break
     else:
-        vit += 1
-        print(f'\33[32mVocê ganhou!\33[m Você jogou {player} e o PC jogou {pc}, dando um resultado {resultado}.')
+        vitorias += 1
+        print(f'\33[32mVocê ganhou!\33[m Você jogou {usuario} e o PC jogou {pc}, dando um resultado {resultado}.')
         print()
 print()
-print(f'\33[31mVocê perdeu\33[m após {vit} vitórias consecutivas sobre o PC!')
+print(f'Você jogou {usuario} e o PC jogou {pc}, dando um resultado {resultado}')
+print(f'\33[31mVocê perdeu\33[m após {vitorias} vitórias consecutivas sobre o PC!')

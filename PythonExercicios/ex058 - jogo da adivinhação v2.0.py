@@ -3,23 +3,25 @@
 
 from random import randint
 
-r = ''
+palpite_jogador = ''
 c = 0
-n = randint(0, 10)
+valor_sorteado = randint(0, 10)
 
 print('-='*13)
 print('Jogo da Adivinhação v2.0:')
 print('-='*13)
 print()
 
-while r != n:
-    r = int(input('Tente adivinhar qual número entre 0 e 10 o computador pensou: '))
-    if r != '':
-        c += 1
-    if r != n:
-        if r > n:
+while palpite_jogador != valor_sorteado:
+    palpite_jogador = int(input('Tente adivinhar qual número entre 0 e 10 o computador pensou: '))
+    if palpite_jogador not in range(0, 11):
+        print(f'Valor {palpite_jogador} é invalido. Tente novamente')
+        continue
+    c += 1
+    if palpite_jogador != valor_sorteado:
+        if palpite_jogador > valor_sorteado:
             print('Errou para mais, tente novamente...')
-        elif r < n:
+        elif palpite_jogador < valor_sorteado:
             print('Errou para menos, tente novamente...')
 
 print()

@@ -17,7 +17,3 @@ if len(pilha) == 0:
     print('Sua expressão está válida!')
 else:
     print('Sua expressão está errada!')
-
-# tinha feito uma resposta usando o count. Mas ela tinha um problema. se eu colocasse uma expressão do tipo
-# ") bla bla bla (" daria como correto, ou seja, se eu usasse os parenteses na ordem errada ainda contaria como certo
-# logo fiz igual ao guanabara

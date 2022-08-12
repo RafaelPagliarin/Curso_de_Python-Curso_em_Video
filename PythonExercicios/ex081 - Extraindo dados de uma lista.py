@@ -5,9 +5,15 @@
 # c) se o valor 5 foi digitado e está ou não na lista.
 lista = []
 while True:
-    cont = ''
-    lista.append(int(input('Digite um número: ')))
-    cont = str(input('Continuar? [S/N] ')).strip().upper()[0]
+    cont = ' '
+    try:
+        lista.append(int(input('Digite um número: ')))
+    except(ValueError):
+        print('Erro no tipo digitado')
+    while cont not in 'SN':
+        cont = str(input('Continuar? [S/N] ')).strip().upper()[0]
+        if cont not in 'SN':
+            print('Resposta inválida')
     if 'N' in cont:
         break
 print('-=' * 20)
