@@ -25,7 +25,9 @@ while True:
             print('resposta inválida.')
     if cont in 'N':
         break
-print('-=' * 30)
+
+print(lista)
+
 print(f'Foram cadastradas {len(lista)} pessoas.')
 print(f'As pessoas com maior peso ({maior} kg): ', end='')
 for i, v in enumerate(lista):
@@ -35,4 +37,5 @@ print(f'\nAs pessoas com menor peso ({menor} kg): ', end='')
 for i, v in enumerate(lista):
     if v[1] == menor:
         print(f' {v[0]}', end=' ')
-print('\n-=' * 30)
+
+

@@ -14,6 +14,6 @@ if ficha['CTPS'] != 0:
     ficha['contrato'] = int(input('Digite o ano de contratação: '))
     ficha['salário'] = float(input('Digite o salário: R$'))
     ficha['aposentadoria'] = ficha['idade'] + ((ficha['contrato'] + 35) - date.today().year)
-print('-=' * 20)
+print('-=' * 16)
 for k, v in ficha.items():
-    print(f'  - {k} tem o valor {v}')
+    print(f'  - {k:15} : {v}')

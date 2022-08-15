@@ -4,11 +4,13 @@
 # 2. A média de idade do grupo.
 # 3. umma lista com todas as mulheres.
 # 4. uma lista com todas as pessoas comm idade acima da média
-
 from datetime import date
+
+
 lista = list()
-media = tot = 0
 pessoas = dict()
+media_idades = total_idades = 0
+
 while True:
     cont = sexo = ' '
     pessoas.clear()
@@ -20,9 +22,8 @@ while True:
     pessoas['sexo'] = sexo
     nasc = int(input('Ano de nascimento: '))
     pessoas['idade'] = date.today().year - nasc
-    tot += (date.today().year - nasc)
+    total_idades += (date.today().year - nasc)
     lista.append(pessoas.copy())
-
     while cont not in 'SN':
         cont = str(input('Deseja continuar? [S/N]')).strip().upper()[0]
         if cont not in 'SN':
@@ -32,17 +33,16 @@ while True:
         break
 print('-=' * 20)
 print(f'A) Foram cadastradas {len(lista)} pessoas.')
-media = tot/len(lista)
-print(f'B) A média de idade do grupo é: {media:5.2f} anos.')
+media_idades = total_idades / len(lista)
+print(f'B) A média de idade do grupo é: {media_idades:5.2f} anos.')
 print(f'C) As mulheres do grupo são: ', end='')
 for p in lista:
     if p['sexo'] in 'Ff':
         print(f'{p["nome"]} ', end='')
 print(f'\nD) As pessoas acima da média de idade do grupo são: ')
 for p in lista:
-    if p['idade'] >= media:
-        print('    ', end='')
+    if p['idade'] >= media_idades:
         for k, v in p.items():
-            print(f'{k} = {v}; ', end='')
+            print(f'    {k} = {v}; ', end='')
         print()
 print('-=' * 20)

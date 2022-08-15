@@ -4,29 +4,29 @@
 # o maior valor da segunda linha
 
 matriz = [['A', 'B', 'C'], ['D', 'E', 'F'], ['G', 'H', 'I']]
-pares = s = m = 0
+pares = soma = maior_segunda_linha = 0
 print()
-for i in range(0, 3):
-    for x in range(0, 3):
-        print(f'[{(matriz[i][x])}] ', end='')
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        print(f'[{(matriz[linha][coluna])}] ', end='')
     print()
 print()
-for i in range(0, 3):
-    for x in range(0, 3):
-        matriz[i][x] = int(input(f'Digite o valor de {matriz[i][x]} :'))
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        matriz[linha][coluna] = int(input(f'Digite o valor de {matriz[linha][coluna]} :'))
 print()
-for i in range(0, 3):
-    s += matriz[i][2]
-    for x in range(0, 3):
-        if x == 0:
-            m = matriz[1][0]
+for linha in range(0, 3):
+    soma += matriz[linha][2]
+    for coluna in range(0, 3):
+        if coluna == 0:
+            maior_segunda_linha = matriz[1][0]
         else:
-            if matriz[1][x] > m:
-                m = matriz[1][x]
-        print(f'[{(matriz[i][x]):0>2}] ', end='')
-        if matriz[i][x] % 2 == 0:
-            pares += matriz[i][x]
+            if matriz[1][coluna] > maior_segunda_linha:
+                maior_segunda_linha = matriz[1][coluna]
+        print(f'[{(matriz[linha][coluna]):0>2}] ', end='')
+        if matriz[linha][coluna] % 2 == 0:
+            pares += matriz[linha][coluna]
     print()
 print(f'A soma de todos os valores pares é: {pares}.')
-print(f'A soma de todos os valores da terceira coluna é: {s}.')
-print(f'O maior valor da segunda linha é: {m}.')
+print(f'A soma de todos os valores da terceira coluna é: {soma}.')
+print(f'O maior valor da segunda linha é: {maior_segunda_linha}.')

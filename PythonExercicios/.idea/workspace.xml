@@ -2,68 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0843256-1c9a-4241-b09e-913f6b7b8b7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonExercicios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonExercicios.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex002 - peça nome e dê boas vindas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex002 - peça nome e dê boas vindas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex003 - somando dois numeros (melhorado).py" beforeDir="false" afterPath="$PROJECT_DIR$/ex003 - somando dois numeros (melhorado).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex004 - dissecando uma variável.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex004 - dissecando uma variável.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex005 - antecessor e sucessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex005 - antecessor e sucessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex007 - média aritmética.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex007 - média aritmética.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex008 - conversor de medidas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex008 - conversor de medidas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex009 - tabuada.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex009 - tabuada.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex010 - conversor de moedas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex010 - conversor de moedas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex012 - calculando descontos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex012 - calculando descontos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex013 - reajuste salarial.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex013 - reajuste salarial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex017 - catetos e hipotenusa.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex017 - catetos e hipotenusa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex018 - seno, cosseno e tangente.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex018 - seno, cosseno e tangente.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex019 - sorteando um item na lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex019 - sorteando um item na lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex020 - sorteando uma ordem na lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex020 - sorteando uma ordem na lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex021 - tocando um MP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex021 - tocando um MP3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex022 - analisador de textos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex022 - analisador de textos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex026 - primeira e ultima ocorrencia de uma string.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex026 - primeira e ultima ocorrencia de uma string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex028 - Jogo da adivinhação 1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex028 - Jogo da adivinhação 1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex031 - custo da viagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex031 - custo da viagem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex032 - ano bissexto.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex032 - ano bissexto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex033 - maior ou menor valores.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex033 - maior ou menor valores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex036 - Aprovando Emprestimo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex036 - Aprovando Emprestimo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex037 - Conversor de Bases Numéricas FAZER DEPOIS!!!!!.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex037 - Conversor de Bases Numéricas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex039 - Alistamento Militar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex039 - Alistamento Militar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex040 - Aquele clássico da Média.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex040 - Aquele clássico da Média.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex041 - Classificando Atletas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex041 - Classificando Atletas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex043 - Índice de massa corporal.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex043 - Índice de massa corporal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex044 - Gerenciador de Pagamentos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex044 - Gerenciador de Pagamentos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex045 - Game Jokenpo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex045 - Game Jokenpo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex046 - Contagem Regressiva.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex046 - Contagem Regressiva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex047 - Contagem de Pares.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex047 - Contagem de Pares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex048 - Soma ímpares múltiplos de tres.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex048 - Soma ímpares múltiplos de tres.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex049 - tabuada v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex049 - tabuada v2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex050 - soma dos pares.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex050 - soma dos pares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex054 - grupo da maioridade.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex054 - grupo da maioridade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex056 - analisador completo.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex056 - analisador completo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex057 - validação de dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex057 - validação de dados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex058 - jogo da adivinhação v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex058 - jogo da adivinhação v2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex059 - criando um menu de opções.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex059 - criando um menu de opções.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex060 - calculo de fatorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex060 - calculo de fatorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex061 - progressão aritimética v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex061 - progressão aritimética v2.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex062 - super progressão aritimética v3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex062 - super progressão aritimética v3.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex063 - sequência de fibonacci v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex063 - sequência de fibonacci v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex064 - tratando vários valores v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex064 - tratando vários valores v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex065 - maior e menor valores.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex065 - maior e menor valores.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex066 - Vários números com flag.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex066 - Vários números com flag.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex067 - Tabuada v3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex067 - Tabuada v3.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex068 - Jogo do par ou impar.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex068 - Jogo do par ou impar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex069 - Análise de dados do grupo (nice).py" beforeDir="false" afterPath="$PROJECT_DIR$/ex069 - Análise de dados do grupo (nice).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex070 - Estatísticas em produtos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex070 - Estatísticas em produtos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex071 - Simulador de Caixa Eletrônico.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex071 - Simulador de Caixa Eletrônico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex072 - Número por Extenso.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex072 - Número por Extenso.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex074 - Maior e Menos valores em Tupla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex074 - Maior e Menos valores em Tupla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex077 - Contando vogais em Tupla.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex077 - Contando vogais em Tupla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex078 - Maior e Menor valores na Lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex078 - Maior e Menor valores na Lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex079 - Valores únicos em uma Lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex079 - Valores únicos em uma Lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex080 - Lista ordenada sem repetições.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex080 - Lista ordenada sem repetições.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex081 - Extraindo dados de uma lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex081 - Extraindo dados de uma lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex082 - Dividindo valores de uma lista.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex082 - Dividindo valores de uma lista.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex083 - Validando expressões matemáticas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex083 - Validando expressões matemáticas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex084 - lista composta e analise de dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex084 - lista composta e analise de dados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex086 - matriz em python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex086 - matriz em python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex087 - mais sobre matriz em python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex087 - mais sobre matriz em python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex088 - palpites para a mega sena.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex088 - palpites para a mega sena.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex089 - boletim com listas compostas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex089 - boletim com listas compostas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex090 - Dicionário em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex090 - Dicionário em Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex091 - Jogo de Dados em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex091 - Jogo de Dados em Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex092 - Cadastro de Trabalhador em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex092 - Cadastro de Trabalhador em Python.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex093 - Cadastro de Jogador de Futebol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex093 - Cadastro de Jogador de Futebol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex094 - Unindo dicionários e listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex094 - Unindo dicionários e listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +43,8 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="Python.ex082 - Dividindo valores de uma lista">
-    <configuration name="ex079 - Valores únicos em uma Lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.ex097 - Um print especial">
+    <configuration name="ex092 - Cadastro de Trabalhador em Python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex079 - Valores únicos em uma Lista.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex092 - Cadastro de Trabalhador em Python.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex080 - Lista ordenada sem repetições" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex093 - Cadastro de Jogador de Futebol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,7 +77,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex080 - Lista ordenada sem repetições.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex093 - Cadastro de Jogador de Futebol.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -137,7 +86,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex081 - Extraindo dados de uma lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex094 - Unindo dicionários e listas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +98,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex081 - Extraindo dados de uma lista.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex094 - Unindo dicionários e listas.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +107,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex082 - Dividindo valores de uma lista" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex095 - Aprimorando os Dicionários" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -170,7 +119,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex082 - Dividindo valores de uma lista.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex095 - Aprimorando os Dicionários.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scratch_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ex097 - Um print especial" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonExercicios" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex097 - Um print especial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -202,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex082 - Dividindo valores de uma lista" />
-        <item itemvalue="Python.ex081 - Extraindo dados de uma lista" />
-        <item itemvalue="Python.ex080 - Lista ordenada sem repetições" />
-        <item itemvalue="Python.ex079 - Valores únicos em uma Lista" />
-        <item itemvalue="Python.scratch_3" />
+        <item itemvalue="Python.ex097 - Um print especial" />
+        <item itemvalue="Python.ex095 - Aprimorando os Dicionários" />
+        <item itemvalue="Python.ex094 - Unindo dicionários e listas" />
+        <item itemvalue="Python.ex093 - Cadastro de Jogador de Futebol" />
+        <item itemvalue="Python.ex092 - Cadastro de Trabalhador em Python" />
       </list>
     </recent_temporary>
   </component>
