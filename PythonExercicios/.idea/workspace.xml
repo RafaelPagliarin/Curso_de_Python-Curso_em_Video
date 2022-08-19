@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0843256-1c9a-4241-b09e-913f6b7b8b7c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex084 - lista composta e analise de dados.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex084 - lista composta e analise de dados.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex086 - matriz em python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex086 - matriz em python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex087 - mais sobre matriz em python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex087 - mais sobre matriz em python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex088 - palpites para a mega sena.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex088 - palpites para a mega sena.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex089 - boletim com listas compostas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex089 - boletim com listas compostas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex090 - Dicionário em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex090 - Dicionário em Python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex091 - Jogo de Dados em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex091 - Jogo de Dados em Python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex092 - Cadastro de Trabalhador em Python.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex092 - Cadastro de Trabalhador em Python.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex093 - Cadastro de Jogador de Futebol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex093 - Cadastro de Jogador de Futebol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex094 - Unindo dicionários e listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex094 - Unindo dicionários e listas.py" afterDir="false" />
-    </list>
+    <list default="true" id="b0843256-1c9a-4241-b09e-913f6b7b8b7c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
